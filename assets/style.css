@@ -1,0 +1,35 @@
+:root{
+--primary: #FE4A34;
+--secondary: #383838;
+--light: #FFFFFF;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #FE4A34;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--secondary);
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
