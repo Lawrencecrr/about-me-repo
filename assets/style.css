@@ -52,6 +52,7 @@ main {
 .picture {
     padding: 5px;
     border: 3px solid var(--primary)  ;
+    border-radius: 10px 10px;
     background-color: var(--secondary);
 }
 
@@ -65,7 +66,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 550px;
+    padding: 5px 247px;
     color: var(--secondary);
     background-color: var(--primary);
     margin: 5%;
@@ -85,6 +86,15 @@ main {
     flex-direction: column;
 }
 
+.work > img {
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    border: 3px solid var(--secondary);
+    padding: 5px;
+
+}
+
 .contactme {
     display: flex;
     justify-content: center;
@@ -93,5 +103,13 @@ main {
     color: var(--secondary);
     background-color: var(--primary);
     margin: 5%;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contactme a {
+    display: flex;
+    color: var(--secondary);
+    font-size: 20px;
+    padding: 3px;
 }
