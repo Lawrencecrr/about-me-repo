@@ -2,7 +2,10 @@
 
 ## Features
 * View portfolio
-* 
+* Link Functions
+* button
+
+
 
 ## Website-demo
 
