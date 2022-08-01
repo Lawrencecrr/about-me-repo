@@ -85,13 +85,19 @@ nav a {
     flex-direction: column;
 }
 
-.work > img {
+.mywork img {
     justify-content: center;
-    width: 300px;
+    width: 250px;
     height: 350px;
     border: 3px solid var(--secondary);
     padding: 5px;
 
+}
+/* put image inside of button */
+.mywork .button {
+    height: 100px;
+    width: 200px;
+    
 }
 
 .contactme {
