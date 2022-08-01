@@ -8,6 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--secondary);
+    box-sizing: border-box;
+
 }
 
 header {
@@ -43,21 +45,18 @@ nav a {
 
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center ;
-}
-
 .picture {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 5px;
-    border: 3px solid var(--primary)  ;
-    border-radius: 10px 10px;
-    background-color: var(--secondary);
 }
 
 .picture > img {
     justify-content: center;
+    border: solid var(--primary);
+    border-radius: 40px 10px;
+    padding: 4px;
     width: 250px;
     height: 330px;
 }
