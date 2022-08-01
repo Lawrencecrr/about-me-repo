@@ -14,6 +14,7 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5%;
@@ -53,6 +54,8 @@ nav a {
 }
 
 .picture > img {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     border: solid var(--primary);
     border-radius: 40px 10px;
@@ -89,15 +92,17 @@ nav a {
     justify-content: center;
     width: 250px;
     height: 350px;
-    border: 3px solid var(--secondary);
-    padding: 5px;
 
 }
 /* put image inside of button */
-.mywork .button {
-    height: 100px;
-    width: 200px;
-    
+.horiseon {
+    background-color: var(--primary);
+    border: var(--secondary)
+}
+
+.horiseon:hover {
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: var(--secondary);
 }
 
 .contactme {
@@ -114,6 +119,7 @@ nav a {
 
 .contactme a {
     display: flex;
+    flex-wrap: wrap;
     color: var(--secondary);
     font-size: 20px;
     padding: 3px;
